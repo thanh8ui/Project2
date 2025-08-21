@@ -1,16 +1,6 @@
-# Team 6 MIST 4610 Group Project 2
 
-
-## Team Name:
-47114 Group 6
-
-
-## Team Members:
-1. [Thanh (Randy) Bui](https://github.com/thanh8ui)  
-2. [Luke Eckert](https://github.com/Luke-Eckert)  
-3. [Claire Lee](https://github.com/clairerlee)  
-4. [Elyse Robbins](https://github.com/elyserobbins)  
-5. [Elliot Wallace](https://github.com/e8w-9837)
+## Primary Author & Maintainer:
+1. [Thanh (Randy) Bui](https://github.com/thanh8ui)
 
 
 ---
@@ -47,7 +37,7 @@
 **Source:** Washington State Dept. of Licensing – [Electric Vehicle Population Data](https://catalog.data.gov/dataset/electric-vehicle-population-data)
 
 
-We chose the Electric Vehicle Population Data dataset. It was published by the  Washington State Department of Licensing, and it provides detailed information on registered electric vehicles in Washington State. 
+I chose the Electric Vehicle Population Data dataset. It was published by the Washington State Department of Licensing, and it provides detailed information on registered electric vehicles in Washington State. 
 This data captures a snapshot of EV population that includes one row per vehicle, which totals out of an approximate 159,467 entries, spanning 17 columns total. This data is public and is formatted such as CSV and JSON. Each row represents an individual record of the vehicle and the columns provide various attributes related to that vehicle. 
 These include identifying and geographic details such as the first 10 characters of the Vehicle Identification Number (VIN), city, county, state (always “WA”), postal code, and census tract. Vehicle-specific details are also included, such as the model year, make (e.g., TESLA, NISSAN), model name, and electric vehicle type—either Battery Electric Vehicle (BEV) or Plug-in Hybrid Electric Vehicle (PHEV). Additionally, the dataset includes whether the vehicle qualifies as a Clean Alternative Fuel Vehicle (CAFV), its electric driving range in miles, and its base MSRP (Manufacturer’s Suggested Retail Price).
 Policy-relevant identifiers are included, such as the Washington State legislative district where the vehicle is registered and the DOL vehicle ID number. The dataset also contains a "Vehicle Location" field with spatial coordinates, showing the latitude and longitude of the registration address, as well as the electric utility provider serving that location. This collection of information allows researchers, policymakers, and planners to analyze the geographic distribution, market penetration, and infrastructure needs related to electric vehicles across the state.
@@ -95,7 +85,7 @@ Normalizing EV registrations by population—expressing them as the number of el
 ### Question 2:
 
 
-When it comes to the manipulations of the data set, there were quite a few. For the data visualization of EV adoption over time, one of the important actions I used was to count the distinct number of VIN numbers, then grouping how many distinct vin numbers there were by each year. The purpose of this was to be able to count how many electric vehicles were adopted each year, using the VIN number as the primary key to identify new cars. I also filtered the color of the line depending on the count distinct of VIN numbers, so that it was easier to differentiate how much different each year was. Next, for the visualization of EV adoption by company, I used the same calculation of count distinct but instead, grouped by the brand. The reason for this was to see what companies are helping EV adoption the most, and the least, and by using count distinct, we make sure we are not double counting any cars. 
+When it comes to the manipulations of the data set, there were quite a few. For the data visualization of EV adoption over time, one of the important actions I used was to count the distinct number of VIN numbers, then grouping how many distinct vin numbers there were by each year. The purpose of this was to be able to count how many electric vehicles were adopted each year, using the VIN number as the primary key to identify new cars. I also filtered the color of the line depending on the count distinct of VIN numbers, so that it was easier to differentiate how much different each year was. Next, for the visualization of EV adoption by company, I used the same calculation of count distinct but instead, grouped by the brand. The reason for this was to see what companies are helping EV adoption the most, and the least, and by using count distinct, I made sure I'm not double counting any cars. 
 
 
 
